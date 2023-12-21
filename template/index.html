@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<lang html>
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <title>Infant Shop</title>
+</head>
+
+<body>
+  <div class="grid-container">
+    <header class="header">
+      <div class="brand">
+        <button onclick="openMenu()">
+          &#9776;
+        </button>
+        <a href="index.html">infantShop</a>
+      </div>
+      <div class="header-links">
+        <a href="cart.html">Cart</a>
+        <a href="signin.html">Sign In</a>
+      </div>
+    </header>
+    <aside class="sidebar">
+      <h3>Shopping Categories</h3>
+      <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+      <ul>
+        <li>
+          <a href="index.html">Boys Fashion</a>
+        </li>
+
+        <li>
+          <a href="index.html">Girls Fashion</a>
+        </li>
+
+        <li>
+          <a href="index.html">Toys</a>
+        </li>
+        
+        <li>
+          <a href="index.html">Bath</a>
+        </li>
+
+        <li>
+          <a href="index.html">Diapers</a>
+        </li>
+
+        <li>
+          <a href="index.html">Pre-Schooling</a>
+        </li>
+
+      </ul>
+    </aside>
+    <main class="main">
+      <div class="content">
+        <ul class="products">
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/boys1.png" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Boys Shorts and Shirt</a>
+              </div>
+              <div class="product-brand">Nike</div>
+              <div class="product-price">899</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/boys2.png" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Shorts & Shirt</a>
+              </div>
+              <div class="product-brand">Puma</div>
+              <div class="product-price">600</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/girls1.png" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Pink Skirt and Top</a>
+              </div>
+              <div class="product-brand">Maaesa</div>
+              <div class="product-price">649</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/bath1.png" alt="product" />
+              <div class="product-name">
+                <a href="product.html">gentle wash</a>
+              </div>
+              <div class="product-brand">Seba med</div>
+              <div class="product-price">800</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/diaper1.png" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Waterproof Reusable</a>
+              </div>
+              <div class="product-brand">Nappy</div>
+              <div class="product-price">499</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/pre1.png" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Kids table</a>
+              </div>
+              <div class="product-brand">Neelkamal</div>
+              <div class="product-price">749</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+    </main>
+    <footer class="footer">
+      All right reserved.
+    </footer>
+  </div>
+  <script>
+    function openMenu() {
+      document.querySelector(".sidebar").classList.add("open");
+    }
+    function closeMenu() {
+      document.querySelector(".sidebar").classList.remove("open")
+    }
+  </script>
+</body>
+
+</html>
